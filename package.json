@@ -17,10 +17,10 @@
           "host": "attribute",
           "entryPoint": "src/attribute.js",
           "recordTypes": [
-            "Epic",
+            "Epic"
           ]
         },
-        "prs": {
+        "page": {
           "title": "Sample Page",
           "host": "page",
           "entryPoint": "src/page.js",
