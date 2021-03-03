@@ -1,0 +1,40 @@
+{
+  "name": "k1w1/sample-extension",
+  "description": "Sample",
+  "version": "0.0.0",
+  "author": "k1w1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/k1w1/sample-extension"
+  },
+  "dependencies": {},
+  "license": "MIT",
+  "ahaExtension": {
+    "contributes": {
+      "views": {
+        "attribute": {
+          "title": "Sample Attr",
+          "host": "attribute",
+          "entryPoint": "src/attribute.js",
+          "recordTypes": [
+            "Epic",
+          ]
+        },
+        "prs": {
+          "title": "Sample Page",
+          "host": "page",
+          "entryPoint": "src/page.js",
+          "location": {
+            "menu": "Work"
+          }
+        }
+      },
+      "commands": {
+        "CMD": {
+          "title": "Sample CMD",
+          "entryPoint": "src/command.js"
+        }
+      }
+    }
+  }
+}
